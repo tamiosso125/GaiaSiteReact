@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  height: 80%;
+  width: 90%;
+}
+
+main {
+  display: flex;
+  /* background-color: rgba(0, 0, 0, 0.192); */
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+  margin-top: 150px;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.principalText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.secondText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}

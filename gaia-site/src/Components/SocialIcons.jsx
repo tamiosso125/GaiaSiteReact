@@ -12,7 +12,7 @@ class SocialIcons extends React.Component {
        rel="noopener noreferrer"
       className="icon"
       >
-      <img src={img} alt=""/>
+      <img src={img} alt="Icones Redes Socias"/>
        </a>
       ))}</span>
     );
