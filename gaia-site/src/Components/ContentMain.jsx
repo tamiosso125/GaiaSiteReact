@@ -2,10 +2,11 @@ import React from "react";
 
 class About extends React.Component {
   render() {
+    const {idClass, title} = this.props;
     return (
-      <p id="LinkAbout">
-        <h1 className="About">About</h1>
-      </p>
+      <div>
+        <h1 id={idClass} className={idClass}>{title}</h1>
+      </div>
     );
   }
 }
