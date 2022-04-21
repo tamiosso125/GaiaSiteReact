@@ -1,7 +1,7 @@
 import React from "react";
-import './Title.css'
+import '../Components/Title.css'
 
-class About extends React.Component {
+class LinkHeader extends React.Component {
   render() {
     const { title, link } = this.props;
     return (
@@ -11,4 +11,4 @@ class About extends React.Component {
   }
 }
 
-export default About;
+export default LinkHeader;
